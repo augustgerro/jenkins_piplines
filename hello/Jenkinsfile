@@ -1,0 +1,6 @@
+echo "# jenkins_piplines" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:augustgerro/jenkins_piplines.git
+git push -u origin master
